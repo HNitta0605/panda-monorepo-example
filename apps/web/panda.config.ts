@@ -8,5 +8,6 @@ export default defineConfig({
 		"./components/**/*.{ts,tsx}",
 		"./node_modules/@repo/ui/src/**/*.{ts,tsx}",
 	],
+	dependencies: ["./node_modules/@repo/ui/src/**/*.{ts,tsx}"],
 	importMap: "@repo/styled-system",
 });

@@ -2,15 +2,10 @@ import { defineConfig } from "@pandacss/dev";
 
 export default defineConfig({
 	outdir: "../styled-system",
-
 	preflight: true,
-
 	strictTokens: true,
-
 	strictPropertyValues: true,
-
 	jsxFramework: "react",
-
 	theme: {
 		extend: {
 			tokens: {
@@ -22,6 +17,5 @@ export default defineConfig({
 			},
 		},
 	},
-
 	globalCss: {},
 });
